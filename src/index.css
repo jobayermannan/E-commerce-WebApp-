@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.btn-primary {
+  @apply p-2 bg-blue-500 text-white rounded w-full;
+}
+.placeholder-bottom::placeholder {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0.75rem;
+  transform: translateY(100%);
+}
